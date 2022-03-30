@@ -145,13 +145,12 @@ canvas {
 /* ///////////////////////////////// */
 
 .icon-container {
-  text-align: center;
-  margin: 0 auto;
-  width: 120 px;
-  display: block ruby;
+  justify-content: center;
+  display: flex;
 }
 
 .icon {
+  padding: 0 8px;
 }
 
 .fa-github-square {
