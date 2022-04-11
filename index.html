@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link
-      href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
       rel="stylesheet"
     />
     <link
@@ -11,12 +11,20 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     
-    <link rel="icon" type="image/png" href="/images/ETH.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Katelyn Kunzmann</title>
     <script type="module" src="/main.js"></script>
     <link rel="modulepreload" href="/node_modules/three/build/three.js">
     <link rel="stylesheet" href="/style.css" type="text/css" media="all">
+
+    <!-- Detect and redirect for mobile -->
+    <script type="text/javascript">
+        if(navigator.userAgent.match(/iP(od|hone)/i) || navigator.userAgent.match(/Android/i)){
+            if(document.cookie.indexOf("iphone_redirect=false")==-1) {
+                window.location.href="https://katelynkunzmann.github.io/my-portfolio-mobile/";
+            }
+        }
+    </script>
     
   </head>
  <body>
@@ -87,7 +95,7 @@
             <figcaption class="heading"><a href="https://github.com/KatelynKunzmann/Simon-Says" target="_blank" rel="noopener noreferrer">Simon Says</a></figcaption>
           </figure>
         </section>
-
+        
       </section>
 
       <section class="left">
@@ -140,14 +148,6 @@
           </p>
 
       </section>
-
-      <!-- <section class="left">
-        
-        <h2>Education</h2>
-
-        <h3>Biology Courses:</h3>
-
-      </section> -->
 
       <section>
         <h2>Contact info:</h2>
