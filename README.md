@@ -15,7 +15,7 @@ svg hover inspired by Karim Balaa https://codepen.io/karimbalaa/pen/qERbBY?edito
 Google Fonts - https://fonts.googleapis.com/css?family=Lato
 
 Adobe Fonts - https://use.typekit.net/jmk3xov.css
-    * License: https://fonts.adobe.com/eulas/0000000000000000000132df
+* License: https://fonts.adobe.com/eulas/0000000000000000000132df
 
 
 
