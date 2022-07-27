@@ -71,7 +71,7 @@ const spaceTexture = new THREE.TextureLoader().load('images/space.jpg');
 scene.background = spaceTexture;
 
 // Avatar
-const katelynTexture = new THREE.TextureLoader().load('images/meblue.jpg');
+const katelynTexture = new THREE.TextureLoader().load('images/me_and_melods_bluegradient.JPG');
 const katelyn = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: katelynTexture }));
 
 scene.add(katelyn);
