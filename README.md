@@ -2,6 +2,17 @@
 
 Access my portfolio at https://katelynkunzmann.github.io/my-portfolio/
 
+
+## How to build and deploy with vite ##
+`npm run dev` -> "vite"  
+`npm run build` -> "vite build"  
+`npm run preview` -> "vite preview
+### For GitHubPages ###
+`npm run build`  
+`git add dist -f`  
+`git commit -m "<message>"`  
+`git subtree push --prefix dist origin gh-pages`
+
 ## Credits ##
 
 three.js tutorial git repo - https://github.com/fireship-io/threejs-scroll-animation-demo
