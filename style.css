@@ -196,7 +196,12 @@ canvas {
   padding-bottom: 50px;
   /* same width as the image - contains the caption */
 }
-.project-container figure img{}
+
+.project-container figure img{
+  max-width: 100%;
+  height: auto;
+}
+
 .project-container figure figcaption{
   display: block;
   position: relative;
@@ -249,3 +254,161 @@ canvas {
 /* /////////////////////////////////////
 /* // End Project container displays ///
 /* ///////////////////////////////// */
+
+
+
+/*////////////////////////////////////////////
+//// Responsiveness for different screens ////
+////////////////////////////////////////////*/
+
+/* Max screen size of  encapsulates */
+@media screen and (max-width: 800px) {
+  header {
+    font-size: 1rem;
+  }
+  .icon-container {
+    font-size: 1.5rem;
+  }
+  blockquote p {
+    font-size: 1.5rem;
+  }
+  .left {
+    font-size: 1rem;
+  }
+  .heading {
+    font-size: 1rem;
+  }
+}
+
+/* Max screen size of 1200px encapsulates most smaller screens */
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+  header {
+    font-size: 1.5rem;
+  }
+  .icon-container {
+    font-size: 1.5rem;
+  }
+  blockquote p {
+    font-size: 1.5rem;
+  }
+  .left {
+    font-size: 1rem;
+  }
+  .heading {
+    font-size: 1.25rem;
+  }
+}
+
+/* Ipad Pro 12.9 */
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px)
+and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  header {
+    font-size: 1.5rem;
+  }
+  .icon-container {
+    font-size: 1.5rem;
+  }
+  blockquote p {
+    font-size: 1.5rem;
+  }
+  .left {
+    font-size: 1rem;
+  }
+  .heading {
+    font-size: 1.25rem;
+  }
+}
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) 
+and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  header {
+    font-size: 1.5rem;
+  }
+  .icon-container {
+    font-size: 1.5rem;
+  }
+  blockquote p {
+    font-size: 1.5rem;
+  }
+  .left {
+    font-size: 1rem;
+  }
+  .heading {
+    font-size: 1.25rem;
+  }
+}
+
+/* Nexus 9 */
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 1536px) 
+  and (device-height: 2048px) 
+  and (-webkit-min-device-pixel-ratio: 1.331) 
+  and (-webkit-max-device-pixel-ratio: 1.332) {
+  header {
+    font-size: 1.5rem;
+  }
+  .icon-container {
+    font-size: 1.5rem;
+  }
+  blockquote p {
+    font-size: 1.5rem;
+  }
+  .left {
+    font-size: 1rem;
+  }
+  .heading {
+    font-size: 1.25rem;
+  }
+}
+/* Portrait */
+@media screen 
+  and (device-width: 1536px) 
+  and (device-height: 2048px) 
+  and (-webkit-min-device-pixel-ratio: 1.331) 
+  and (-webkit-max-device-pixel-ratio: 1.332) 
+  and (orientation: portrait) {
+  header {
+    font-size: 1.5rem;
+  }
+  .icon-container {
+    font-size: 1.5rem;
+  }
+  blockquote p {
+    font-size: 1.5rem;
+  }
+  .left {
+    font-size: 1rem;
+  }
+  .heading {
+    font-size: 1.25rem;
+  }
+
+}
+/* Landscape */
+@media screen 
+  and (device-width: 1536px) 
+  and (device-height: 2048px) 
+  and (-webkit-min-device-pixel-ratio: 1.331) 
+  and (-webkit-max-device-pixel-ratio: 1.332) 
+  and (orientation: landscape) {
+  header {
+    font-size: 1.5rem;
+  }
+  .icon-container {
+    font-size: 1.5rem;
+  }
+  blockquote p {
+    font-size: 1.5rem;
+  }
+  .left {
+    font-size: 1rem;
+  }
+  .heading {
+    font-size: 1.25rem;
+  }
+ 
+}
