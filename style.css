@@ -13,11 +13,30 @@ canvas {
   --dark-bg: rgba(15, 15, 15, 0.95);
   --spacing: 350px;
 
+  --dark-purple: #170028;
+  --peach: #e96444; 
+  --rose-pink: #a4124c;
+  --purple: #3424ac;
+
+  --dark-green: #014e33;
+  --forest-green: #3a8107;
+  --mint-green: #33b885;
+  --brown: #2e1c0b;
+
+  --navy: #00101f;
+  --pale-blue: #6eaeeb;
+  --aqua: #65FDDD;
+
   font-family: brandon-grotesque, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
+
+
+/* //////////////////////////////////////
+/* /////// Sections and headers ////////
+/* ///////////////////////////////////*/
 
 main {
   width: 100vw;
@@ -44,45 +63,67 @@ canvas {
   left: 0;
 }
 
+header {
+  background: var(--dark-bg);
+  grid-column: 2 / span 5;
+  font-size: 1.5rem;
+  padding: 2rem;
+  margin-bottom: var(--spacing);
+}
+
+section {
+  grid-column: 2 / 8;
+  padding: 1rem;
+  background: var(--dark-bg);
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: var(--spacing);
+}
+
+blockquote {
+  margin: 0;
+  padding: 0;
+  grid-column: 2 / span 9;
+  margin-bottom: var(--spacing);
+}
+
+blockquote p {
+  color: black;
+  background-color: white;
+  font-size: 4rem;
+  display: inline;
+  line-height: 1;
+}
+
+.codeskills-section {
+  background: var(--dark-bg);
+}
+/* End sections and headers */
 
 
-  header {
-    background: var(--dark-bg);
-    grid-column: 2 / span 5;
-    font-size: 2.5rem;
-    padding: 2rem;
-    margin-bottom: var(--spacing);
-  }
 
-  section {
-    grid-column: 2 / 8;
-    padding: 1rem;
-    background: var(--dark-bg);
-    font-size: 1.25rem;
-    line-height: 1.5;
-    margin-bottom: var(--spacing);
-  }
+/* //////////////////////////////////////
+/* ////// Various text formatting //////
+/* ///////////////////////////////////*/
+#contact-info {
+  font-size: 1.5rem;
+}
 
-  blockquote {
-    margin: 0;
-    padding: 0;
-    grid-column: 2 / span 9;
-    margin-bottom: var(--spacing);
-  }
+#typing-effect-text {
+  text-align: center;
+  font-weight: 300;
+  font-size: 2rem;
+  color: white;
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+}
+/* End various text formatting*/
 
-  blockquote p {
-    color: black;
-    background-color: white;
-    font-size: 4rem;
-    display: inline;
-    line-height: 1;
-  }
 
-  .exp {
-    grid-column: 6 / 12;
-  }
 
-  /* default button */
+/* default button */
 .button {
   color: aquamarine;
   cursor: pointer;
@@ -100,9 +141,11 @@ canvas {
   width: 100%;
 }
 
-/* /////////////////////////////////
-/* //Resume button  
-/* ///////////////////////////////// */
+
+
+/* //////////////////////////////////
+/* ///////// Resume button /////////
+/* ///////////////////////////////*/
 .resume-button {
   background: #091555;
   font-weight: bolder;
@@ -137,12 +180,15 @@ canvas {
 .button-container {
   display: flex;
   justify-content: center;
+  padding-bottom: 10px;
 }
 /* end resume button*/
 
+
+
 /* /////////////////////////////////
-/* // icon links ///////////////////
-/* ///////////////////////////////// */
+/* ////////// icon links //////////
+/* /////////////////////////////*/
 
 .icon-container {
   justify-content: center;
@@ -151,6 +197,7 @@ canvas {
 
 .icon {
   padding: 0 8px;
+  font-size: 2rem;
 }
 
 .fa-github-square {
@@ -180,9 +227,8 @@ canvas {
   font-size: inherit;
   text-rendering: auto;
 }
-
-
 /*End icon links*/
+
 
 
 /* /////////////////////////////////
@@ -233,6 +279,20 @@ canvas {
 /* /////////////////////////////////////
 /* // End Project container displays ///
 /* ///////////////////////////////// */
+
+
+
+/* /////////////////////////////////
+/* ////////// Donut Chart //////////
+/* ///////////////////////////////*/
+#donut {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* End Donut chart */
 
 
 
