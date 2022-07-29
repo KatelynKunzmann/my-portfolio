@@ -78,7 +78,7 @@ canvas {
     line-height: 1;
   }
 
-  .left {
+  .exp {
     grid-column: 6 / 12;
   }
 
@@ -219,37 +219,16 @@ canvas {
   text-decoration: none;
 }
 
-.project-container figure figcaption a::after{
-  position: absolute; 
-  top: 12px; 
-  right: 15px; 
-  width: 30px; 
-  height: 30px; 
-  line-height: 30px; 
-  font-family:"Font Awesome\ 5 Free"; 
-  font-weight: 900; 
-  line-height: 30px; 
-  content:"\f105";
-  /* fa-angle-right */ 
-  text-align: center; 
-  line-height: 30px; 
-}
-
 .project-container figure figcaption a{
   color: inherit; 
   background-color: inherit; 
   border-color: #D7D7D7;
 }
-.project-container figure:hover figcaption a, .project-container figure figcaption a::after{
+.project-container figure:hover figcaption a {
   color: #FFFFFF; 
   background-color: #303f9f; 
   border-color: #303f9f;
 }
-.project-container figure:hover figcaption a::after{
-  color: #303f9f; 
-  background-color: #FFFFFF;
-}
-
 
 /* /////////////////////////////////////
 /* // End Project container displays ///
@@ -261,7 +240,7 @@ canvas {
 //// Responsiveness for different screens ////
 ////////////////////////////////////////////*/
 
-/* Max screen size of  encapsulates */
+/* Max screen size of 800px encapsulates tablets */
 @media screen and (max-width: 800px) {
   header {
     font-size: 1rem;
@@ -272,15 +251,18 @@ canvas {
   blockquote p {
     font-size: 1.5rem;
   }
-  .left {
+  .exp, h2 {
     font-size: 1rem;
   }
   .heading {
     font-size: 1rem;
   }
+ .project-container figure figcaption a {
+  font-size: 0.7rem;
+ }
 }
 
-/* Max screen size of 1200px encapsulates most smaller screens */
+/* Max screen size of 1200px encapsulates most laptops */
 @media screen and (min-width: 801px) and (max-width: 1200px) {
   header {
     font-size: 1.5rem;
@@ -291,7 +273,7 @@ canvas {
   blockquote p {
     font-size: 1.5rem;
   }
-  .left {
+  .exp {
     font-size: 1rem;
   }
   .heading {
@@ -313,7 +295,7 @@ and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
   blockquote p {
     font-size: 1.5rem;
   }
-  .left {
+  .exp {
     font-size: 1rem;
   }
   .heading {
@@ -333,7 +315,7 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
   blockquote p {
     font-size: 1.5rem;
   }
-  .left {
+  .exp {
     font-size: 1rem;
   }
   .heading {
@@ -357,7 +339,7 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
   blockquote p {
     font-size: 1.5rem;
   }
-  .left {
+  .exp {
     font-size: 1rem;
   }
   .heading {
@@ -380,7 +362,7 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
   blockquote p {
     font-size: 1.5rem;
   }
-  .left {
+  .exp {
     font-size: 1rem;
   }
   .heading {
@@ -404,7 +386,7 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
   blockquote p {
     font-size: 1.5rem;
   }
-  .left {
+  .exp {
     font-size: 1rem;
   }
   .heading {
