@@ -20,7 +20,7 @@
       }
     } -->
   <!-- </script> -->
-  <!-- Detect and redirect for tablets -->
+  <!-- Detect and redirect for small screens -->
   <script type="text/javascript">
     if (screen.width <= 1024) {
       window.location = "https://katelynkunzmann.github.io/my-portfolio-mobile/";
@@ -28,7 +28,7 @@
   </script>
 
   <script type="module" crossorigin src="/my-portfolio/assets/index.eced99d8.js"></script>
-  <link rel="stylesheet" href="/my-portfolio/assets/index.4e0cbcfe.css">
+  <link rel="stylesheet" href="/my-portfolio/assets/index.d26740d6.css">
 </head>
 
 <body onload="typeWriter()">
@@ -77,42 +77,208 @@
       <p></p>
     </header>
 
+    <!---------------------------------------------------------------->
+    <!------------------------- About Me ----------------------------->
+    <!---------------------------------------------------------------->
+    <section>
+      <h2>👩‍🎓 About Me</h2>
+      <div>
+        I am currently a Computer Science student at the University of Pittsburgh. When I'm not typing on keyboards, I'm
+        building them.
+      </div>
+      <div style="margin-top: 25px; text-align: center"><img src="/my-portfolio/images/Keeb.png"></div>
+      <div>
+        <ul>
+          Other interests I have include:
+          <li>anything cryptography or blockchain related</li>
+          <li>downhill skateboarding</li>
+          <li>snowboarding</li>
+          <li>gems and minerals</li>
+          <li>crypto trading</li>
+          <li>video games</li>
+          <li>cuddling my cat</li>
+        </ul>
+      </div>
+
+
+    </section>
+
+    <!---------------------------------------------------------------->
+    <!------------------------- Projects ----------------------------->
+    <!---------------------------------------------------------------->
     <section>
       <h2>&#128187; Projects</h2>
       <section class="project-container">
-        <figure class="one_half first"><img src="/my-portfolio/images/NFTgame.png" alt="NFT matching card game" class="responsive">
-          <figcaption class="heading"><a href="https://github.com/KatelynKunzmann/NFT-matching-game" target="_blank"
-              rel="noopener noreferrer">NFT Card Matching</a></figcaption>
-        </figure>
-        <figure class="one_half"><img src="/my-portfolio/images/YieldAgg0.png" alt="Yield aggregator web application"
+        <figure class="one_half first"><img src="/my-portfolio/images/cat-cafe.jpg" alt="blact cat with coffee and text cat cafe"
             class="responsive">
-          <figcaption class="heading"><a href="https://github.com/KatelynKunzmann/yield-aggregator" target="_blank"
-              rel="noopener noreferrer">Yield Aggregator</a></figcaption>
+          <figcaption class="heading"><a href="https://github.com/KatelynKunzmann/MeowMatch" target="_blank"
+              rel="noopener noreferrer">Meow Match</a></figcaption>
+          <figcaption class="subheading">
+            <ul>
+              <li>Meow Match is a Cat Cafe website/business implemented
+                with <br>VueJS + Python Django + SQLite</li>
+              <li>Frontend website currently in development</li>
+            </ul>
+          </figcaption>
+        </figure>
+        <figure class="one_half"><img src="/my-portfolio/images/interesticon_mintgreen.png" alt="graduation cap with dollar sign"
+            class="responsive">
+          <figcaption class="heading"><a href="https://github.com/KatelynKunzmann/interest" target="_blank"
+              rel="noopener noreferrer">interest</a></figcaption>
+          <figcaption class="subheading">
+            <ul>
+              <li>A semester-long group project built with 2 other teammates</li>
+              <li>A web application that calculates your student loan payments</li>
+              <li>Provides an amortization table of payments, a loan summary,
+                and a loan safety ratio (will the student be able to pay back this loan
+                with their expected salary after graduation)
+              </li>
+            </ul>
+          </figcaption>
         </figure>
       </section>
       <section class="project-container">
-        <figure class="one_half first"><img src="/my-portfolio/images/NFT_Dioptase.png" alt="NFT named Dioptase hosted on Solana">
-          <figcaption class="heading"><a href="https://solscan.io/token/HgWt1oMYfnwYD4ttMBXnyzbZrmNiZheMjWHYzRC5diCL"
-              target="_blank" rel="noopener noreferrer">Dioptase NFT</a></figcaption>
+        <figure class="one_half first"><img src="/my-portfolio/images/hail.png" alt="two people hailing a car with their phone"
+            class="responsive">
+          <figcaption class="heading"><a href="https://github.com/KatelynKunzmann/" target="_blank"
+              rel="noopener noreferrer">Ride-hailing app</a></figcaption>
+          <figcaption class="subheading">
+            <ul>
+              <li>An Android app that allows users to book a ride with a driver</li>
+              <li>Built with React Native and Pusher</li>
+              <li>---- currently in development ----</li>
+            </ul>
+          </figcaption>
         </figure>
-        <figure class="one_half"><img src="/my-portfolio/images/KillBill (2).png" alt="Kill Bill hypertext">
-          <figcaption class="heading"><a href="https://github.com/KatelynKunzmann/hypertext" target="_blank"
-              rel="noopener noreferrer">Kill Bill: Hypertext</a></figcaption>
+        <figure class="one_half"><img src="/my-portfolio/images/algo-visual.gif" alt="gif of bars being sorted using bubble sort"
+            class="responsive">
+          <figcaption class="heading"><a href="https://github.com/KatelynKunzmann/Sorting_Algorithm_Visualizer"
+              target="_blank" rel="noopener noreferrer">Sorting Algorithm Visualizer</a></figcaption>
+          <figcaption class="subheading">
+            <ul>
+              <li>Sorting algorithms visualized with Python</li>
+            </ul>
+          </figcaption>
         </figure>
       </section>
+      <!-- <figure class="one_half first"><img src="/images/348x400.png" alt="" class="responsive">
+        <figcaption class="heading"><a href="https://github.com/KatelynKunzmann/SudokuSolver-in-C" target="_blank"
+            rel="noopener noreferrer">Sudoku Solver in C</a></figcaption>
+        <figcaption class="subheading">
+          <ul>
+            <li>Automatic sudoku puzzle solver implemented in C</li>
+          </ul>
+        </figcaption>
+      </figure> -->
       <section class="project-container">
-        <figure class="one_half first"><img src="/my-portfolio/images/memgame.png"
-            alt="Matching card memory game made with javascript">
+
+        <figure class="one_half first"><img src="/my-portfolio/images/typing--test.png" alt="website preview of typing test"
+            class="responsive">
+          <figcaption class="heading"><a href="https://github.com/KatelynKunzmann/typing-test" target="_blank"
+              rel="noopener noreferrer">Typing Test for Kids</a>
+          </figcaption>
+          <figcaption class="subheading">
+            <ul>
+              <li>Inspired by my niece who is learning how to type
+                and I will soon start teaching her how to code</li>
+              <li>Implemented with JavaScript</li>
+            </ul>
+          </figcaption>
+        </figure>
+        <figure class="one_half"><img src="/my-portfolio/images/mem-game.png" alt="Matching card memory game made with javascript">
           <figcaption class="heading"><a href="https://github.com/KatelynKunzmann/Memory-game" target="_blank"
               rel="noopener noreferrer">Memory Game</a></figcaption>
+          <figcaption class="subheading">
+            <ul>
+              <li>Matching card game implemented with JavaScript</li>
+            </ul>
+          </figcaption>
         </figure>
-        <figure class="one_half"><img src="/my-portfolio/images/SimonSays.png"
+      </section>
+      <section class="project-container">
+        <figure class="one_half first"><img src="/my-portfolio/images/SimonSays.png"
             alt="Simon says childhood game implemented with assembly code">
           <figcaption class="heading"><a href="https://github.com/KatelynKunzmann/Simon-Says" target="_blank"
-              rel="noopener noreferrer">Simon Says</a></figcaption>
+              rel="noopener noreferrer">Simon Says in assembly</a></figcaption>
+          <figcaption class="subheading">
+            <ul>
+              <li>Simon Says game implemented in Mips with assembly code</li>
+            </ul>
+          </figcaption>
+        </figure>
+        <figure class="one_half"><img src="/my-portfolio/images/KillBill.png" alt="Kill Bill hypertext">
+          <figcaption class="heading"><a href="https://github.com/KatelynKunzmann/hypertext" target="_blank"
+              rel="noopener noreferrer">Kill Bill: Hypertext</a></figcaption>
+          <figcaption class="subheading">
+            <ul>
+              <li>A hypertextual narrative adventure into the famous fight scene from Kill Bill Vol 1:
+                Showdown at the House of Blue Leaves</li>
+              <li>My first ever experience with HTML, CSS, and JavaScript</li>
+            </ul>
+          </figcaption>
         </figure>
       </section>
     </section>
+
+    <!---------------------------------------------------------------->
+    <!-------------------- Blockchain Projects ----------------------->
+    <!---------------------------------------------------------------->
+    <section>
+      <h2>⛓️ Blockchain Projects</h2>
+      <section class="project-container">
+        <figure class="one_half first"><img src="/my-portfolio/images/Go--p2p.png" alt="" class="responsive">
+          <figcaption class="heading"><a href="https://github.com/KatelynKunzmann/" target="_blank"
+              rel="noopener noreferrer">Peer-to-Peer Blockchain</a></figcaption>
+          <figcaption class="subheading">
+            <ul>
+              <li>Implemented in GO</li>
+              <li>Consensus = longest chain amongst all peers wins</li>
+              <li>---- Currently in development ----</li>
+            </ul>
+          </figcaption>
+        </figure>
+        <figure class="one_half"><img src="/my-portfolio/images/YieldAgg.png" alt="Yield aggregator web application"
+            class="responsive">
+          <figcaption class="heading"><a href="https://github.com/KatelynKunzmann/yield-aggregator" target="_blank"
+              rel="noopener noreferrer">Yield Aggregator</a></figcaption>
+          <figcaption class="subheading">
+            <ul>
+              <li>A dApp that chooses the greater yield between Compound & Aave and
+                accrues that yield onto the balance</li>
+              <li>User can withdraw into their browser wallet at any time</li>
+              <li>Implemented with Solidity, React, and Web3.js</li>
+            </ul>
+          </figcaption>
+        </figure>
+      </section>
+      <section class="project-container">
+        <figure class="one_half first"><img src="/my-portfolio/images/NFT-game.png" alt="NFT matching card game" class="responsive">
+          <figcaption class="heading"><a href="https://github.com/KatelynKunzmann/NFT-matching-game" target="_blank"
+              rel="noopener noreferrer">NFT Card Matching</a></figcaption>
+          <figcaption class="subheading">
+            <ul>
+              <li>Card matching game where winners receive NFTs to their browser wallet</li>
+              <li>Implemented with Solidity and JavaScript</li>
+            </ul>
+          </figcaption>
+        </figure>
+        <figure class="one_half"><img src="/my-portfolio/images/NFT_Dioptase.png" alt="NFT named Dioptase hosted on Solana">
+          <figcaption class="heading"><a href="https://solscan.io/token/HgWt1oMYfnwYD4ttMBXnyzbZrmNiZheMjWHYzRC5diCL"
+              target="_blank" rel="noopener noreferrer">Dioptase NFT</a></figcaption>
+          <figcaption class="subheading">
+            <ul>
+              <li>My own personal NFT named after my favorite mineral, Dioptase</li>
+              <li>Hosted on Solana with Linode</li>
+            </ul>
+          </figcaption>
+        </figure>
+      </section>
+    </section>
+
+
+    <!---------------------------------------------------------------->
+    <!------------------------ Coding Skills ------------------------->
+    <!---------------------------------------------------------------->
 
     <section class="codeskills-section">
       <script src="https://cdn.anychart.com/releases/8.10.0/js/anychart-core.min.js"></script>
@@ -121,13 +287,14 @@
       <script>
         anychart.onDocumentReady(function () {
           var data = [
-            { x: 'Java', value: 34 },
-            { x: 'Python', value: 21 },
+            { x: 'Java', value: 25 },
+            { x: 'Python', value: 15 },
             { x: 'HTML&CSS', value: 15 },
-            { x: 'JavaScript', value: 11 },
-            { x: 'Solidity', value: 3 },
-            { x: 'Assembly/x86', value: 3 },
-            { x: 'C', value: 13 }
+            { x: 'JavaScript', value: 15 },
+            { x: 'C', value: 15 },
+            { x: 'Solidity', value: 5 },
+            { x: 'Assembly/x86', value: 5 },
+            { x: 'Go', value: 5 }
           ];
           var dataSet = anychart.data.set(data);
 
@@ -156,7 +323,8 @@
             { color: 'var(--rose-pink)' },
             { color: 'var(--purple)' },
             { color: 'gray' },
-            { color: 'var(--brown)' }
+            { color: 'var(--brown)' },
+            { color: 'limegreen' }
           ]);
 
           // apply the donut chart color palette
@@ -171,20 +339,45 @@
 
       </script>
 
+      <h3>🧰 Development Tools</h3>
+      <div>
+        <ul>
+          <li>Git</li>
+          <li>Linux</li>
+          <li>jUnit testing</li>
+          <li>React</li>
+          <li>VueJS, ViteJS, threeJS</li>
+          <li>SQLite</li>
+          <li>Postman</li>
+          <li>Selenium</li>
+          <li>VisualVM</li>
+          <li>Ganache</li>
+        </ul>
+      </div>
+
     </section>
 
+
+    <!---------------------------------------------------------------->
+    <!------------------------- Education ---------------------------->
+    <!---------------------------------------------------------------->
     <section class="exp">
       <h2>&#128218; Education</h2>
 
       <h3>Computer Science Courses:</h3>
+      <p style="font-weight:750; font-size:1.5rem"> Carnegie Mellon University </p>
+      <ul>
+        <li>Cryptocurrencies, Blockchains, and Applications</li>
+      </ul>
       <p style="font-weight:750; font-size:1.5rem"> University of Pittsburgh </p>
       <ul>
+        <li>Applied Cryptography and Network Security</li>
+        <li>Data Structures and Algorithms 2</li>
         <li>Software Engineering</li>
         <li>Programming for Web Applications</li>
         <li>Operating Systems</li>
         <li>Composing Digital Media</li>
         <li>Software Quality Assurance</li>
-        <li>Algorithms</li>
         <li>Computer Organization and Assembly Language</li>
         <li>Intro to Systems Software</li>
         <li>Data Structures</li>
@@ -204,6 +397,9 @@
 
 </html>
 
+<!----------------------------------------------------------------------------------------------->
+<!------------------------- Script for active typing text in header ----------------------------->
+<!----------------------------------------------------------------------------------------------->
 <script>
   var i = 0;
   var txt = 'Hi! My name is Katelyn Kunzmann and that adorable kittycat is Melody 🐈 Scroll down to learn more about me 🚀';
