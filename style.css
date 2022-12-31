@@ -8,13 +8,12 @@ canvas {
   left: 0;
 }
 
-
 :root {
   --dark-bg: rgba(15, 15, 15, 0.95);
   --spacing: 350px;
 
   --dark-purple: #170028;
-  --peach: #e96444; 
+  --peach: #e96444;
   --rose-pink: #a4124c;
   --purple: #3424ac;
 
@@ -25,14 +24,12 @@ canvas {
 
   --navy: #00101f;
   --pale-blue: #6eaeeb;
-  --aqua: #65FDDD;
+  --aqua: #65fddd;
 
   font-family: brandon-grotesque, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-
-
 
 /* //////////////////////////////////////
 /* /////// Sections and headers ////////
@@ -46,12 +43,15 @@ main {
   width: 100%;
   margin: 0px auto;
   padding: 120px 0px;
-  
+
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
 
-h1, h2, h3, blockquote {
+h1,
+h2,
+h3,
+blockquote {
   font-family: elevon, sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -100,8 +100,6 @@ blockquote p {
 }
 /* End sections and headers */
 
-
-
 /* //////////////////////////////////////
 /* ////// Various text formatting //////
 /* ///////////////////////////////////*/
@@ -121,8 +119,6 @@ blockquote p {
 }
 /* End various text formatting*/
 
-
-
 /* default button */
 .button {
   color: aquamarine;
@@ -141,7 +137,43 @@ blockquote p {
   width: 100%;
 }
 
+.work-title-div {
+  color: white;
+  font-size: 125%;
+  font-weight: 100;
+  text-align: left;
+  width: 50%;
+  margin-left: 0;
+  margin-right: auto;
+  float: left;
+}
+.work-date-div {
+  color: white;
+  font-size: 125%;
+  font-weight: 100;
+  text-align: right;
+  width: 50%;
+  margin-left: auto;
+  margin-right: 0;
+  float: right;
+}
+.company-name {
+  font-size: 95%;
+  color: white;
+  margin-left: 0;
+  margin-right: auto;
+  float: left;
+  text-indent: 50px;
+}
 
+.work-description {
+  font-size: 85%;
+  color: white;
+  margin-left: 0;
+  margin-right: auto;
+  float: left;
+  text-indent: 50px;
+}
 
 /* //////////////////////////////////
 /* ///////// Resume button /////////
@@ -183,8 +215,6 @@ blockquote p {
   padding-bottom: 10px;
 }
 /* end resume button*/
-
-
 
 /* /////////////////////////////////
 /* ////////// icon links //////////
@@ -229,35 +259,34 @@ blockquote p {
 }
 /*End icon links*/
 
-
-
 /* /////////////////////////////////
 /* // Project container displays ///
 /* ///////////////////////////////// */
 
-.project-container {}
+.project-container {
+}
 .project-container figure {
-  display: block; 
+  display: block;
   max-width: 348px;
   padding-bottom: 50px;
   /* same width as the image - contains the caption */
 }
 
-.project-container figure img{
+.project-container figure img {
   max-width: 100%;
   height: auto;
 }
 
-.project-container figure figcaption{
+.project-container figure figcaption {
   display: block;
   position: relative;
 }
 
-.project-container figure figcaption a{
-  display: block; 
-  position: relative; 
-  padding: 15px; 
-  border: solid; 
+.project-container figure figcaption a {
+  display: block;
+  position: relative;
+  padding: 15px;
+  border: solid;
   border-width: 0 1px 1px 1px;
   color: white;
   font-weight: 400;
@@ -265,23 +294,20 @@ blockquote p {
   text-decoration: none;
 }
 
-.project-container figure figcaption a{
-  color: inherit; 
-  background-color: inherit; 
-  border-color: #D7D7D7;
+.project-container figure figcaption a {
+  color: inherit;
+  background-color: inherit;
+  border-color: #d7d7d7;
 }
 .project-container figure:hover figcaption a {
-  color: #FFFFFF; 
-  background-color: #303f9f; 
+  color: #ffffff;
+  background-color: #303f9f;
   border-color: #303f9f;
 }
-
 
 /* /////////////////////////////////////
 /* // End Project container displays ///
 /* ///////////////////////////////// */
-
-
 
 /* /////////////////////////////////
 /* ////////// Donut Chart //////////
@@ -294,8 +320,6 @@ blockquote p {
 }
 
 /* End Donut chart */
-
-
 
 /*////////////////////////////////////////////
 //// Responsiveness for different screens ////
@@ -312,15 +336,16 @@ blockquote p {
   blockquote p {
     font-size: 1.5rem;
   }
-  .exp, h2 {
+  .exp,
+  h2 {
     font-size: 1rem;
   }
   .heading {
     font-size: 1rem;
   }
- .project-container figure figcaption a {
-  font-size: 0.7rem;
- }
+  .project-container figure figcaption a {
+    font-size: 0.7rem;
+  }
 }
 
 /* Max screen size of 1200px encapsulates most laptops */
@@ -345,8 +370,7 @@ blockquote p {
 /* Ipad Pro 12.9 */
 /* Portrait */
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px)
-and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
   header {
     font-size: 1.5rem;
   }
@@ -365,8 +389,7 @@ and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
 }
 /* Landscape */
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
-@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) 
-and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
   header {
     font-size: 1.5rem;
   }
@@ -386,11 +409,7 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
 
 /* Nexus 9 */
 /* Portrait and Landscape */
-@media screen 
-  and (device-width: 1536px) 
-  and (device-height: 2048px) 
-  and (-webkit-min-device-pixel-ratio: 1.331) 
-  and (-webkit-max-device-pixel-ratio: 1.332) {
+@media screen and (device-width: 1536px) and (device-height: 2048px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) {
   header {
     font-size: 1.5rem;
   }
@@ -408,12 +427,7 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
   }
 }
 /* Portrait */
-@media screen 
-  and (device-width: 1536px) 
-  and (device-height: 2048px) 
-  and (-webkit-min-device-pixel-ratio: 1.331) 
-  and (-webkit-max-device-pixel-ratio: 1.332) 
-  and (orientation: portrait) {
+@media screen and (device-width: 1536px) and (device-height: 2048px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) and (orientation: portrait) {
   header {
     font-size: 1.5rem;
   }
@@ -429,15 +443,9 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
   .heading {
     font-size: 1.25rem;
   }
-
 }
 /* Landscape */
-@media screen 
-  and (device-width: 1536px) 
-  and (device-height: 2048px) 
-  and (-webkit-min-device-pixel-ratio: 1.331) 
-  and (-webkit-max-device-pixel-ratio: 1.332) 
-  and (orientation: landscape) {
+@media screen and (device-width: 1536px) and (device-height: 2048px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) and (orientation: landscape) {
   header {
     font-size: 1.5rem;
   }
@@ -453,5 +461,4 @@ and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
   .heading {
     font-size: 1.25rem;
   }
- 
 }
