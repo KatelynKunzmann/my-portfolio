@@ -28,7 +28,7 @@
   </script>
 
   <script type="module" crossorigin src="/my-portfolio/assets/index.eced99d8.js"></script>
-  <link rel="stylesheet" href="/my-portfolio/assets/index.9acf9704.css">
+  <link rel="stylesheet" href="/my-portfolio/assets/index.19c29734.css">
 </head>
 
 <body onload="typeWriter()">
@@ -42,7 +42,7 @@
       <p id="typing-effect-text"></p>
       <p>
       <div class="button-container">
-        <a href="https://drive.google.com/file/d/1Rbw_7Av2lHO9RsNpPH5mSPlFWYKkWBH_/view?usp=share_link" target="_blank"
+        <a href="https://drive.google.com/file/d/12P3OSdCOlT6NTIXDXgUAK91AADK18X7E/view?usp=drive_link" target="_blank"
           rel="noopener noreferrer" class="button resume-button" download>
           <svg>
             <rect x="0" y="0" fill="none" width="140%" height="150%" />
@@ -119,28 +119,33 @@
     <!---------------------------------------------------------------->
     <section>
       <h2>💻 Experience</h2>
-      <div class="work-title-div">Software Engineer Associate</div>
+      <div class="work-title-div">Software Engineer Summer Associate</div>
       <div class="work-date-div">06/2023 - 08/2023</div>
-      <div>Tackle.io</div>
+      <a href="https://tackle.io" target="_blank" rel="noopener noreferrer" style="color: #00CED1;">Tackle.io</a>
       <div>
         <ul>
-          <li>...Starts June 5th 2023...</li>
+          <li>Developed and deployed a reverse proxy server
+            application that securely manages customer
+            credentials and facilitates interactions with cloud
+            APIs on behalf of customers.</li>
+          <li>Learned and applied software development best
+            practices, including CICD, agile methodologies,
+            and automated testing.</li>
         </ul>
       </div>
       <div class="work-title-div">Malware Analyst Intern</div>
       <div class="work-date-div">01/2023 - 03/2023</div>
-      <div>National Cyber-Forensics and Training Alliance (NCFTA)</div>
+      <a href="https://www.ncfta.net/" target="_blank" rel="noopener noreferrer" style="color: #00CED1;">National
+        Cyber-Forensics and Training Alliance (NCFTA)</a>
+      <div></div>
       <div>
         <ul>
-          <li>Conducted static and dynamic analysis on
-            malware and ransomware variants.</li>
-          <li>Wrote technical reports on latest malware
+          <li>Developed a new malware analysis tool that is in
+            use at the company today.</li>
+          <li>Reverse engineered and conducted static and
+            dynamic analysis on malware and ransomware
             variants.</li>
-          <li>Reverse engineered and used disassembly on
-            malware variants to gain detailed insight on
-            behavior.</li>
-          <li>Developed new malware analysis tools that are
-            being used at the company today.</li>
+          <li>Wrote technical reports on malware variants.</li>
         </ul>
       </div>
     </section>
@@ -152,6 +157,33 @@
     <section>
       <h2>&#128187; Projects</h2>
       <section class="project-container">
+        <figure class="one_half first"><img src="/my-portfolio/images/sigil.png" alt="">
+          <figcaption class="heading"><a href="https://github.com/tackle-io" target="_blank"
+              rel="noopener noreferrer">Sigil</a></figcaption>
+          <figcaption class="subheading">
+            <ul>
+              <li>A secure vault that manages customer credentials and operates as a
+                reverse proxy server, facilitating interactions with cloud APIs on behalf of
+                customers.</li>
+              <li>Developing currently at internship at Tackle.io</li>
+              <li>Implemented with Python + AWS-Boto3</li>
+            </ul>
+          </figcaption>
+        </figure>
+        <figure class="one_half"><img src="/my-portfolio/images/bugdrive.jpg" alt="Flash drive with bug/malware" class="responsive">
+          <figcaption class="heading"><a href="https://github.com/KatelynKunzmann/Mal-Monthly" target="_blank"
+              rel="noopener noreferrer">Mal-Monthly</a>
+          </figcaption>
+          <figcaption class="subheading">
+            <ul>
+              <li>A web application that displays the most shared malware for the past 30 days.</li>
+              <li>Developed during internship at the NCFTA.</li>
+              <li>Implemented with JavaScript + NodeJS + ExpressJS + HTML/CSS</li>
+            </ul>
+          </figcaption>
+        </figure>
+      </section>
+      <section class="project-container">
         <figure class="one_half first"><img src="/my-portfolio/images/groupfas.png" alt="Multiple servers that share files"
             class="responsive">
           <figcaption class="heading"><a href="https://github.com/KatelynKunzmann/File-Application-System"
@@ -161,7 +193,8 @@
               <li>Group-based file sharing application that is secure
                 against a number of different types of security threats.</li>
               <li>A semester-long group project to apply cryptographic and
-                security concepts to a multiple server file-sharing application built using Java.</li>
+                security concepts to a multiple server file-sharing application.</li>
+              <li>Implemented with Java + Bouncy Castle</li>
             </ul>
           </figcaption>
         </figure>
@@ -171,38 +204,27 @@
               rel="noopener noreferrer">Interest</a></figcaption>
           <figcaption class="subheading">
             <ul>
-              <li>A semester-long group project built with 2 other teammates using React and Java.</li>
+              <li>A semester-long group project built with 2 other teammates.</li>
               <li>A web application that calculates your student loan payments</li>
               <li>Provides an amortization table of payments, a loan summary,
                 and a loan safety ratio (will the student be able to pay back this loan
                 with their expected salary after graduation)
               </li>
+              <li>Implemented with React + Java</li>
             </ul>
           </figcaption>
         </figure>
       </section>
       <section class="project-container">
-        <!-- <figure class="one_half first"><img src="/images/hail.png" alt="two people hailing a car with their phone"
-            class="responsive">
-          <figcaption class="heading"><a href="https://github.com/KatelynKunzmann/" target="_blank"
-              rel="noopener noreferrer">Ride-hailing app</a></figcaption>
-          <figcaption class="subheading">
-            <ul>
-              <li>An Android app that allows users to book a ride with a driver</li>
-              <li>Built with React Native and Pusher</li>
-              <li>---- currently in development ----</li>
-            </ul>
-          </figcaption>
-        </figure> -->
         <figure class="one_half first"><img src="/my-portfolio/images/cat-cafe.jpg" alt="blact cat with coffee and text cat cafe"
             class="responsive">
           <figcaption class="heading"><a href="https://github.com/KatelynKunzmann/MeowMatch" target="_blank"
               rel="noopener noreferrer">Meow Match</a></figcaption>
           <figcaption class="subheading">
             <ul>
-              <li>Meow Match is a Cat Cafe website/business implemented
-                with <br>VueJS + Python Django + SQLite</li>
+              <li>Meow Match is a Cat Cafe website/"business"</li>
               <li>Frontend website currently in development</li>
+              <li>Implemented with VueJS + Python Django + SQLite</li>
             </ul>
           </figcaption>
         </figure>
@@ -217,17 +239,7 @@
           </figcaption>
         </figure>
       </section>
-      <!-- <figure class="one_half first"><img src="/images/348x400.png" alt="" class="responsive">
-        <figcaption class="heading"><a href="https://github.com/KatelynKunzmann/SudokuSolver-in-C" target="_blank"
-            rel="noopener noreferrer">Sudoku Solver in C</a></figcaption>
-        <figcaption class="subheading">
-          <ul>
-            <li>Automatic sudoku puzzle solver implemented in C</li>
-          </ul>
-        </figcaption>
-      </figure> -->
       <section class="project-container">
-
         <figure class="one_half first"><img src="/my-portfolio/images/typing--test.png" alt="website preview of typing test"
             class="responsive">
           <figcaption class="heading"><a href="https://github.com/KatelynKunzmann/typing-test" target="_blank"
@@ -237,7 +249,7 @@
             <ul>
               <li>Inspired by my niece who is learning how to type
                 and I will soon start teaching her how to code</li>
-              <li>Implemented with JavaScript</li>
+              <li>Implemented with JavaScript + HTML/CSS</li>
             </ul>
           </figcaption>
         </figure>
@@ -282,7 +294,7 @@
     <section>
       <h2>⛓️ Blockchain Projects</h2>
       <section class="project-container">
-        <figure class="one_half first"><img src="/my-portfolio/images/Go--p2p.png" alt="" class="responsive">
+        <!-- <figure class="one_half first"><img src="/images/Go--p2p.png" alt="" class="responsive">
           <figcaption class="heading"><a href="https://github.com/KatelynKunzmann/" target="_blank"
               rel="noopener noreferrer">Peer-to-Peer Blockchain</a></figcaption>
           <figcaption class="subheading">
@@ -292,8 +304,8 @@
               <li>---- Currently in development ----</li>
             </ul>
           </figcaption>
-        </figure>
-        <figure class="one_half"><img src="/my-portfolio/images/YieldAgg.png" alt="Yield aggregator web application"
+        </figure> -->
+        <figure class="one_half first"><img src="/my-portfolio/images/YieldAgg.png" alt="Yield aggregator web application"
             class="responsive">
           <figcaption class="heading"><a href="https://github.com/KatelynKunzmann/yield-aggregator" target="_blank"
               rel="noopener noreferrer">Yield Aggregator</a></figcaption>
@@ -343,8 +355,8 @@
       <script>
         anychart.onDocumentReady(function () {
           var data = [
-            { x: 'Java', value: 25 },
-            { x: 'Python', value: 15 },
+            { x: 'Java', value: 20 },
+            { x: 'Python', value: 20 },
             { x: 'HTML&CSS', value: 15 },
             { x: 'JavaScript', value: 15 },
             { x: 'C', value: 15 },
@@ -398,16 +410,17 @@
       <h3>🧰 Development Tools</h3>
       <div>
         <ul>
-          <li>Git</li>
+          <li>Git, Jira, CICD</li>
           <li>Linux</li>
-          <li>jUnit testing</li>
+          <li>AWS, Boto3</li>
+          <li>FastAPI</li>
+          <li>NodeJS, ExpressJS</li>
           <li>React</li>
           <li>ViteJS, threeJS</li>
-          <li>SQLite</li>
-          <li>Postman</li>
-          <li>Selenium</li>
-          <li>VisualVM</li>
-          <li>Ganache</li>
+          <li>SQL</li>
+          <li>Python Django</li>
+          <li>jUnit testing</li>
+          <li>Postman, Selenium, VisualVM</li>
         </ul>
       </div>
 
@@ -448,10 +461,46 @@
     <blockquote>
       <p>Thanks for exploring!</p>
     </blockquote>
+
+
+
+
   </main>
+  <button onclick="scrollToTop()" id="return-to-top">Return to Top</button>
 </body>
 
 </html>
+
+<!----------------------------------------------------------------------------------------------->
+<!----------------------------- Script for Return to Top Button --------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<script>
+  window.addEventListener("DOMContentLoaded", function () {
+    showReturnButton(); // Check scroll position on page load
+  });
+
+  window.addEventListener("scroll", function () {
+    showReturnButton(); // Check scroll position when scrolling
+  });
+
+  function scrollToTop() {
+    const scrollToTopElement = document.documentElement.scrollTop ? document.documentElement : document.body;
+    scrollToTopElement.scrollIntoView({ behavior: 'smooth' });
+  }
+
+
+  window.onscroll = function () { showReturnButton() };
+
+  function showReturnButton() {
+    const button = document.getElementById("return-to-top");
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      button.style.display = "block";
+    } else {
+      button.style.display = "none";
+    }
+  }
+
+</script>
 
 <!----------------------------------------------------------------------------------------------->
 <!------------------------- Script for active typing text in header ----------------------------->
