@@ -98,6 +98,27 @@ blockquote p {
 .codeskills-section {
   background: var(--dark-bg);
 }
+
+#return-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#return-to-top:hover {
+  background-color: #333;
+}
+
 /* End sections and headers */
 
 /* //////////////////////////////////////

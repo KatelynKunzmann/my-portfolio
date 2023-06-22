@@ -1,6 +1,6 @@
-# my-portfolio
+# My Portfolio
 
-Access my portfolio at https://katelynkunzmann.github.io/my-portfolio/
+Access my portfolio website at https://katelynkunzmann.github.io/my-portfolio/
 
 ## How to build and deploy with vite
 
